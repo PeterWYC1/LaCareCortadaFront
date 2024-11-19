@@ -1,0 +1,35 @@
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+.container h1 {
+  color: #2a0549;
+}
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 2rem;
+}
+
+.section {
+  padding: 1rem; 
+  background: #8ed7d8;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center; 
+  text-decoration: none; 
+  color: rgba(40, 3, 70); 
+  transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.section:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  color: rgba(40, 3, 70);
+  margin-bottom: 0.5rem;
+}

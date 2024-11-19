@@ -1,0 +1,87 @@
+
+.container {
+  padding: 2rem;
+  text-align: center;
+  background-color: #2a0549;
+}
+.container h1 {
+  color: #f8f8f8;
+}
+
+.membershipInfo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  color: #2a0549;
+}
+
+.membershipTier {
+  background-color: #f9f7f7;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  max-width: 300px; 
+  text-align: center; 
+  flex: 1; 
+  min-width: 250px;
+}
+
+.activitiesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center; 
+  margin-bottom: 2rem;
+  border-top: 2px solid #ddd; 
+  padding-top: 2rem; 
+}
+
+.activityCircle {
+  width: 130px;
+  height: 130px;
+  background: rgb(68, 18, 107);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1rem;
+  padding: 1%;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.button:hover {
+  background-color: #a15dcb;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center; 
+  gap: 1rem;
+  margin-bottom: 2rem;
+  border-top: 2px solid #ddd; 
+  padding-top: 2rem; 
+}
+
+.linkButton {
+  padding: 0.8rem 1.5rem;
+  background-color: rgba(40, 3, 70); 
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.4s, box-shadow 0.4s;
+
+}
+
+.linkButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); 
+  
+}

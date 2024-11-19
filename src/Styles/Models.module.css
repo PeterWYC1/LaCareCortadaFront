@@ -1,0 +1,87 @@
+/* src/styles/Models.module.css */
+
+.container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container h1 {
+  color: rgba(40, 3, 70);
+}
+
+.modelList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center; /* Centra los elementos dentro de la lista */
+}
+
+.modelCard {
+  width: 300px;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.8); /* Blanco con transparencia */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.modelPhoto {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.modelName {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: #333;
+}
+
+.portfolioButton {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  background:  #8ed7d8;
+  color:  rgba(40, 3, 70);
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.portfolioButton:hover {
+  background:  #8ed7d8;
+  color:  rgba(40, 3, 70);
+  transform: scale(1.05);
+  color: #fff;
+}
+
+.filter {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: rgba(40, 3, 70); 
+}
+
+.filter label {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.filterSelect {
+  padding: 0.5rem;
+  border: 1px solid #7b2cbf;
+  border-radius: 5px;
+  background-color: #f4f0f7;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  color: #333; 
+}
+
+.filterSelect:hover,
+.filterSelect:focus {
+  border-color: #5a1e8c; 
+  background-color: #e0d8f1;
+}

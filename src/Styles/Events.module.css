@@ -1,0 +1,41 @@
+.container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  min-height: 100vh; 
+  background-size: cover;
+  background: url('../Photos/fotoEvento3.jpg') no-repeat center center;
+}
+.container h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.eventList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%; 
+  max-width: 1200px; 
+}
+
+.eventCard {
+  padding: 1.5rem;
+  background-color: rgba(248, 248, 248, 0.7); 
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  text-align: center; 
+}
+
+.eventName {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.eventDetails {
+  font-size: 1.1rem;
+  color: #000;
+}

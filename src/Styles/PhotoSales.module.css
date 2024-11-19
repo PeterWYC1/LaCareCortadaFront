@@ -1,0 +1,98 @@
+.container {
+  padding: 2rem;
+}
+
+.pageTitle {
+  text-align: center;
+  color: #2a0549;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.photoItem {
+  background-color: #f8f8f8;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.photoItem h2 {
+  color: #2a0549;
+  font-size: 2rem;
+}
+
+.photoItem p {
+  color: #555;
+  font-size: 1.2rem;
+}
+
+.formatSelect {
+  margin: 1rem 0;
+}
+
+.formatButton {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #8ed7d8;
+  color: #2a0549;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formatButton:hover {
+  background-color: #2a0549;
+  color: #fff;
+}
+
+.selected {
+  background-color: #2a0549;
+  color: #fff;
+}
+
+.addButton {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  background-color: #2a0549;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addButton:hover {
+  background-color: #8ed7d8;
+  color: #2a0549;
+}
+.filter {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: rgba(40, 3, 70); 
+}
+
+.filter label {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.filterSelect {
+  padding: 0.5rem;
+  border: 1px solid #7b2cbf;
+  border-radius: 5px;
+  background-color: #f4f0f7;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  color: #333; 
+}
+
+.filterSelect:hover,
+.filterSelect:focus {
+  border-color: #5a1e8c; 
+  background-color: #e0d8f1;
+}
